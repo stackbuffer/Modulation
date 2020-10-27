@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+#generate test data
 x = np.linspace(0, 10*np.pi, 100)
 
 y = 0.2*np.sin(x)
