@@ -9,6 +9,7 @@ c = np.array([-0.2 if i%2==0 else 0.2 for i in range(100)])
 
 d = c*y
 
+#plot the waves using matplotlib
 plt.plot(x, y, label = "carrier signal")
 plt.plot(x, c, label = "msg signal")
 plt.plot(x, d, ":", label = "modulated signal", color = 'green')

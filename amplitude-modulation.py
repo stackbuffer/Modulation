@@ -6,7 +6,7 @@ ampl = np.exp(-(x - 3.5)**2 / 0.8)
 y = np.sin(x * 25) * ampl
 
 
-
+#plot the waves using matplotlib
 plt.figure(figsize=(10,5))
 plt.plot(x, y, label='signal')
 plt.plot(x, ampl, ':', label='amplitude')
